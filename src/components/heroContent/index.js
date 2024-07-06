@@ -10,7 +10,7 @@ const HeroContent = () => {
       <div className="flex  items-center justify-center border-t-2 border-b-2 border-r-2 border-l-2 md:border-l-0 border-[#1c1c1e40] px-[60px] md:py-0 py-7">
         <div className="flex items-center gap-2 py-[10px] px-4 border-[1px] border-[#1c1c1e20] rounded-full w-[204px]">
           <div>
-            <h2 className="text-[18px] font-medium">Explore Now </h2>
+            <h2 className="text-[18px] font-medium">Explore Now &#124;</h2>
           </div>
 
           <div className="bg-[#FFEDD7] rounded-full">
@@ -20,10 +20,10 @@ const HeroContent = () => {
       </div>
       <div className="p-8 text-[#1C1C1E] border-t-2 border-b-2 border-r-2 border-l-2 md:border-l-0 border-[#1c1c1e40] md:w-[848px] text-[16px] text-center leading-[28.6px] flex items-center justify-center font-semibold">
         <h2>
-          At Goofy Paws, we understand that your pets are more than just
-          animals—they're family. That's why we are dedicated to providing
-          high-quality, stylish, and functional products that make life with
-          your furry friends even more enjoyable.
+          At Goofy Paws&#44; we understand that your pets are more than just
+          animals&#45;they&#39;re family. That&#39;s why we are dedicated to
+          providing high&#45;quality&#44; stylish&#44; and functional products
+          that make life with your furry friends even more enjoyable.
         </h2>
       </div>
       <div className="flex items-center justify-center border-t-2 border-b-2 border-l-2 md:border-l-0 border-[#1c1c1e40] border-r-2 md:border-r-0  md:py-0 py-7">
