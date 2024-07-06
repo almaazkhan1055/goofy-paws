@@ -10,9 +10,7 @@ const HeroContent = () => {
       <div className="flex  items-center justify-center border-t-2 border-b-2 border-r-2 border-[#1c1c1e40] px-[60px] md:py-0 py-7">
         <div className="flex items-center gap-2 py-[10px] px-4 border-[1px] border-[#1c1c1e20] rounded-full w-[204px]">
           <div>
-            <h2 className="text-[18px] font-medium">
-              Explore Now <span>|</span>
-            </h2>
+            <h2 className="text-[18px] font-medium">Explore Now &#124;</h2>
           </div>
 
           <div className="bg-[#FFEDD7] rounded-full">
