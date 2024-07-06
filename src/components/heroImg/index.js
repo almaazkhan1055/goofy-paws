@@ -6,7 +6,7 @@ import petCloth from "../../../public/assets/petCloth.png";
 
 const HeroImg = () => {
   return (
-    <div className="flex items-end md:absolute top-[158px] right-[16px] gap-4">
+    <div className="flex items-end md:absolute top-[158px] right-[16px] gap-4 mt-20 md:mt-0">
       <div>
         <Image src={dogNeckBelt} alt="dogneckbelt" className="w-[350px]" />
       </div>
