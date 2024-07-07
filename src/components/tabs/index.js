@@ -35,11 +35,11 @@ const Tabs = () => {
             currentselected={index}
             className={
               currentselected === index
-                ? "border-2 border-[#610BEF] bg-[#7e46f751] md:px-6 md:py-4 md:rounded-full rounded-xl text-black text-[18px] transition duration-300 ease-in-out"
-                : "font-medium text-[18px] rounded-full leading-[32px] tracking-[0.75px] text-center text-black px-6 py-4"
+                ? "border-2 border-[#610BEF] bg-[#7e46f751] px-6 py-4 rounded-full text-black text-[18px] transition duration-300 ease-in-out"
+                : "font-medium text-[18px] rounded-full leading-[32px] tracking-[0.75px] text-center text-black md:px-6 md:py-4"
             }
           >
-            <div className="flex md:flex-row flex-col items-center justify-center gap-3">
+            <div className="flex items-center md:justify-center md:gap-3 text-[10px] leading-3 md:text-lg md:leading-normal">
               <Image src={item.img} alt={item.text} />
               {item.text}
             </div>

@@ -25,7 +25,7 @@ const products = [
 
 const ProductSection = () => {
   return (
-    <div className="flex md:flex-row flex-col items-center justify-center gap-6">
+    <div className="flex md:flex-row flex-col items-center justify-center md:gap-6">
       {products.map((product, index) => (
         <Product
           key={index}

@@ -7,7 +7,7 @@ import { CiCircleChevRight } from "react-icons/ci";
 
 const About = () => {
   return (
-    <div className="md:my-16 mt-[350px] flex justify-between md:flex-row flex-col md:gap-0 gap-10">
+    <div className="md:my-16 flex justify-between md:flex-row flex-col md:gap-0 gap-10">
       <div className="left flex flex-col justify-between gap-8">
         <h2 className="md:text-[100px] text-[50px] font-semibold md:leading-[120px] leading-none tracking-[2px]">
           ABOUT US
@@ -29,9 +29,9 @@ const About = () => {
               Our core specialty is our exclusive line of pet products, designed
               to bring joy and comfort to your furry companions.
             </h2>
-            <div className="flex items-center gap-6 mt-10">
-              <Button text="Shop Now" />
-              <CiCircleChevRight className="text-[#703EDB] text-[50px]" />
+            <div className="flex items-center gap-6 mt-5">
+              <Button text="Shop Now" padding="p-2" />
+              <CiCircleChevRight className="text-[#703EDB] md:text-[50px] text-[30px]" />
             </div>
           </div>
         </div>

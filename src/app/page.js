@@ -9,6 +9,7 @@ import ProductSection from "@/components/productsSection";
 import Social from "@/components/social";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
+import IconsContainer from "@/components/iconsContainer";
 
 const Page = () => {
   return (
