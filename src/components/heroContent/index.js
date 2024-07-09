@@ -21,10 +21,10 @@ const HeroContent = () => {
       </div>
       <div className="text-center py-[40px] px-[40px] text-[22px]  border-[#1c1c1e3f] border-x-[2px]">
         <p>
-          At Goofy Paws, we understand that your pets are more than just
-          animals—they're family. That's why we are dedicated to providing
-          high-quality, stylish, and functional products that make life with
-          your furry friends even more enjoyable.
+          At Goofy Paws&#44; we understand that your pets are more than just
+          animals&#45;they&#39;re family. That&#39;s why we are dedicated to
+          providing high&#45;quality&#44; stylish&#44; and functional products
+          that make life with your furry friends even more enjoyable.
         </p>
       </div>
       <div className="border-x-[2px] border-y-[2px] border-[#1c1c1e3f] sm:py-0 sm:border-0 py-14 px-8">
