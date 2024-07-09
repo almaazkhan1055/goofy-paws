@@ -14,14 +14,14 @@ const Hero = () => {
   return (
     <>
       <div className="relative mt-10">
-        <h2 className="font-semibold md:text-[190px] leading-none  text-center text-[55px] mt-14 md:mt-0">
+        <h2 className="font-semibold sm:text-[190px] leading-none  text-center text-[55px] mt-14 sm:mt-0">
           GOOFY <span className="italic">PAWS</span>
         </h2>
 
-        <div className="sectionSubRow relative flex justify-between gap-4 mt-4 md:mt-0">
-          <div className="flex flex-col md:gap-6 gap-2 w-[20%]">
+        <div className="sectionSubRow relative flex justify-between gap-4 mt-4 sm:mt-0">
+          <div className="flex flex-col sm:gap-6 gap-2 w-[20%]">
             <div className="">
-              <h2 className="md:text-[22px] text-[10px] md:leading-[30px] text-gray-400 font-medium ">
+              <h2 className="sm:text-[22px] text-[10px] sm:leading-[30px] text-gray-400 font-medium ">
                 Goofy Paws Pet Care
                 <span className="text-black"> Quality Products</span> for Your
                 Cherished Furry Family Members
@@ -29,7 +29,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-6">
               <Button text="Shop Now" />
-              <CiCircleChevRight className="text-[#703EDB] md:text-[50px] text-[30px]" />
+              <CiCircleChevRight className="text-[#703EDB] sm:text-[50px] text-[30px]" />
             </div>
           </div>
 

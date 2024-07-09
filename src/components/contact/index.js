@@ -24,15 +24,15 @@ const contactData = [
 ];
 const Contact = () => {
   return (
-    <div className="bg-customPurple md:px-52 px-0 md:py-20 py-40 relative flex flex-col md:mb-0 ">
+    <div className="bg-customPurple sm:px-52 px-0 sm:py-20 py-40 relative flex flex-col sm:mb-0 ">
       <ContentWrapper>
         <TextConatiner
           textHead="CONNECT WITH US"
           textDesc1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
           textDesc2="tempor incididunt ut labore et dolore magna aliq."
         />
-        <div className="md:py-20">
-          <div className="flex  md:flex-row flex-col md:items-center items-start justify-around md:gap-10 gap-2">
+        <div className="sm:py-20">
+          <div className="flex  sm:flex-row flex-col sm:items-center items-start justify-around sm:gap-10 gap-2">
             {contactData.map((item, index) => {
               return (
                 <div
@@ -49,22 +49,22 @@ const Contact = () => {
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon1} absolute md:top-[85px] top-0 left-[65px]`}
+          className={`${styles.pawIcon1} absolute sm:top-[85px] top-0 left-[65px]`}
         />
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon2} absolute md:top-[175px] md:left-[155px] top-[50px] left-[180px]`}
+          className={`${styles.pawIcon2} absolute sm:top-[175px] sm:left-[155px] top-[50px] left-[180px]`}
         />
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon3} absolute md:bottom-[70px] md:right-[150px] bottom-[50px] right-[150px]`}
+          className={`${styles.pawIcon3} absolute sm:bottom-[70px] sm:right-[150px] bottom-[50px] right-[150px]`}
         />
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon4} absolute md:bottom-[50px] bottom-[30px] right-[42px]`}
+          className={`${styles.pawIcon4} absolute sm:bottom-[50px] bottom-[30px] right-[42px]`}
         />
       </ContentWrapper>
     </div>

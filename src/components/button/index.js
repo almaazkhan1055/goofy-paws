@@ -4,8 +4,8 @@ const Button = ({ text, padding }) => {
   return (
     <>
       <button
-        className={`bg-[#703EDB] md:px-6 md:py-3 text-[#ffffff] md:text-lg text-[10px] ${
-          padding ? padding : "md:p-5 p-1.5"
+        className={`bg-[#703EDB] sm:px-6 sm:py-3 text-[#ffffff] sm:text-lg text-[10px] ${
+          padding ? padding : "sm:p-5 p-1.5"
         } rounded-[60px]`}
       >
         {text}
@@ -16,4 +16,4 @@ const Button = ({ text, padding }) => {
 
 export default Button;
 
-// className={`rounded-full ${padding ? padding : "md:px-1 md:py-2.5 p-2"} `}
+// className={`rounded-full ${padding ? padding : "sm:px-1 sm:py-2.5 p-2"} `}

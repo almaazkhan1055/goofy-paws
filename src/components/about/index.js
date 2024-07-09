@@ -7,21 +7,21 @@ import { CiCircleChevRight } from "react-icons/ci";
 
 const About = () => {
   return (
-    <div className="my-40 flex justify-between md:flex-row flex-col md:gap-0 gap-10">
+    <div className="my-40 flex justify-between sm:flex-row flex-col sm:gap-0 gap-10">
       <div className="left flex flex-col justify-between gap-8">
         <div className="text-left">
-          <h2 className="md:text-[100px] text-[50px] font-semibold md:leading-[120px] leading-none tracking-[2px]">
+          <h2 className="sm:text-[100px] text-[50px] font-semibold sm:leading-[120px] leading-none tracking-[2px]">
             ABOUT US
           </h2>
         </div>
-        <div className="bg-[#FFEDD7] md:w-[600px] w-[384px] rounded-[32px] flex gap-2 md:h-[809px] h-[300px]">
+        <div className="bg-[#FFEDD7] sm:w-[600px] rounded-[32px] flex gap-2 sm:h-[809px] h-[300px]">
           <Image alt="dogsleeping" src={dogsleeping} />
         </div>
       </div>
-      <div className="right flex flex-col justify-between md:w-[560px] w-[384px]">
-        <Image src={cat} alt="cat" className="rounded-[32px]  mb-10 md:mb-0" />
+      <div className="right flex flex-col justify-between sm:w-[560px]">
+        <Image src={cat} alt="cat" className="rounded-[32px]  mb-10 sm:mb-0" />
         <div className="gap-4">
-          <h2 className="font-semibold text-[55px] mb-6 md:mb-2 md:leading-none leading-[50px]">
+          <h2 className="font-semibold text-[55px] mb-6 sm:mb-2 sm:leading-none leading-[50px]">
             YOUR PET’S FAVORITE BUDDY
           </h2>
           <div>
@@ -33,7 +33,7 @@ const About = () => {
             </h2>
             <div className="flex items-center gap-6 mt-5">
               <Button text="Shop Now" padding="p-2" />
-              <CiCircleChevRight className="text-[#703EDB] md:text-[50px] text-[30px]" />
+              <CiCircleChevRight className="text-[#703EDB] sm:text-[50px] text-[30px]" />
             </div>
           </div>
         </div>
