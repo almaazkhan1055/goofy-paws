@@ -20,7 +20,7 @@ const videoDataBottom = [
 
 const Social = () => {
   return (
-    <div className="p-[60px] bg-[#703edb10] my-[140px] flex flex-col gap-10 rounded-[32px]">
+    <div className="p-[60px] bg-[#703edb10] sm:my-[140px] mb-10 flex flex-col gap-10 rounded-[32px]">
       <TextConatiner
         textHead="OUR SOCIAL IMPACTS"
         textDesc1="At Goofy Paws, we donate 5% of our revenue to animal shelters and

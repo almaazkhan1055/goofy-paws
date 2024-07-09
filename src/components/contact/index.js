@@ -54,7 +54,7 @@ const Contact = () => {
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon2} absolute sm:top-[175px] sm:left-[155px] top-[50px] left-[180px]`}
+          className={`${styles.pawIcon2} absolute sm:top-[175px] sm:left-[155px] top-[50px] left-[160px]`}
         />
         <Image
           src={paw}
