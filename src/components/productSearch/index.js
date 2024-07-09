@@ -5,7 +5,7 @@ const ProductSearch = () => {
   return (
     <>
       <div className="sm:mt-0 mt-12 text-left">
-        <h2 className="sm:text-[120px] text-[28px] font-semibold tracking-tighter sm:leading-[120px] sm:mb-2">
+        <h2 className="sm:text-[120px] text-[28px] font-semibold tracking-tighter sm:leading-[120px] sm:mb-2 text-center sm:text-left">
           TOP CATEGORIES AND
         </h2>
         <div className="flex sm:flex-row flex-col sm:gap-12 items-center">

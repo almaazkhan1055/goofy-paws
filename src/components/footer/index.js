@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="bg-[#1C1C1E] relative sm:h-[572px] h-[260px]">
+    <div className="bg-[#1C1C1E] relative sm:h-[572px] h-[316px]">
       <div className="py-[65px] text-center">
         <h3 className="sm:text-[28px] text-[12px] opacity-60 text-[#FFFFFF]">
           HIE Global Inc. All Rights Reserved
@@ -43,7 +43,7 @@ const Footer = () => {
       <Image
         src={dogfooter}
         alt="doggy"
-        className="absolute bottom-0 translate-x-[-50%] left-[50%]"
+        className="absolute sm:bottom-0 bottom-0 translate-x-[-50%] left-[50%]"
       />
     </div>
   );

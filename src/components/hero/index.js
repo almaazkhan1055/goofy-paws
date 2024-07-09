@@ -22,9 +22,9 @@ const Hero = () => {
             <div className="sectionSubRow relative flex justify-between gap-4 mt-4 sm:mt-0">
               <div className="flex flex-col sm:gap-6 gap-2 sm:w-[20%] w-[40%]">
                 <div className="">
-                  <h2 className="sm:text-[22px] text-[10px] sm:leading-[30px] text-gray-400 font-medium ">
+                  <h2 className="sm:text-[22px] text-[12px] sm:leading-[30px] text-[#8A8A8E] font-medium ">
                     Goofy Paws Pet Care
-                    <span className="text-black"> Quality Products</span> for
+                    <span className="text-[#000]"> Quality Products</span> for
                     Your Cherished Furry Family Members
                   </h2>
                 </div>
