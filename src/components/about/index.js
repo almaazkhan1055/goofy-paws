@@ -10,7 +10,7 @@ const About = () => {
     <div className="my-40 flex justify-between md:flex-row flex-col md:gap-0 gap-10">
       <div className="left flex flex-col justify-between gap-8">
         <div className="text-left">
-          <h2 className="md:text-[120px] text-[50px] font-semibold md:leading-[120px] leading-none tracking-[2px]">
+          <h2 className="md:text-[100px] text-[50px] font-semibold md:leading-[120px] leading-none tracking-[2px]">
             ABOUT US
           </h2>
         </div>
