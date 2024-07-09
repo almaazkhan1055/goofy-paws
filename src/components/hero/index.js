@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <>
       <div className="relative mt-10">
-        <h2 className="font-semibold sm:text-[190px] leading-none  text-center text-[42px] mt-14 sm:mt-0">
+        <h2 className="font-semibold sm:text-[190px] leading-none  text-center text-[55px] mt-14 sm:mt-0">
           GOOFY <span className="italic">PAWS</span>
         </h2>
         <div className="flex flex-col-reverse sm:block">
