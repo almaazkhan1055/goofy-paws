@@ -4,7 +4,7 @@ import Tabs from "../tabs";
 const ProductSearch = () => {
   return (
     <>
-      <div className="md:mt-0 mt-12 bg-customPurple text-left">
+      <div className="md:mt-0 mt-12 text-left">
         <h2 className="md:text-[120px] text-[42px] font-semibold tracking-tighter md:leading-[120px] leading-[50px] mb-6 md:mb-2">
           TOP CATEGORIES AND
         </h2>

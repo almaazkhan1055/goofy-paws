@@ -14,12 +14,10 @@ const Hero = () => {
   return (
     <>
       <div className="relative mt-10">
-        {/* <div className="flex flex-row  font-semibold md:text-[190px] text-[55px] md:gap-10 gap-0 leading-none mt-14 md:mt-0"> */}
         <h2 className="font-semibold md:text-[190px] leading-none  text-center text-[55px] mt-14 md:mt-0">
           GOOFY <span className="italic">PAWS</span>
         </h2>
 
-        {/* </div> */}
         <div className="sectionSubRow relative flex justify-between gap-4 mt-4 md:mt-0">
           <div className="flex flex-col md:gap-6 gap-2 w-[20%]">
             <div className="">
@@ -53,13 +51,13 @@ const Hero = () => {
         </div>
         <div className="flex justify-between items-end  mt-[-260px]">
           <div className="flex justify-end">
-            <Image src={dogNeckBelt} />
+            <Image src={dogNeckBelt} alt="dogNeckBelt" />
           </div>
-          <div className="flex ml-[20px] items-end">
-            <Image src={dogCat} alt="dogcat" />;
+          <div className="flex ml-[40px] items-end">
+            <Image src={dogCat} alt="dogcat" />
           </div>
           <div className="flex">
-            <Image src={petCloth} />
+            <Image src={petCloth} alt="petCloth" />
           </div>
         </div>
       </div>

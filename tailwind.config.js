@@ -6,9 +6,9 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    // colors: {
-    //   customPurple: "rgba(var(--color-customPurple), 0.2)",
-    // },
+    colors: {
+      customPurple: "rgba(var(--color-customPurple), 0.2)",
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
