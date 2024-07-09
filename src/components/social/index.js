@@ -23,8 +23,9 @@ const Social = () => {
     <div className="p-[60px] bg-[#703edb10] my-20 flex flex-col gap-10 rounded-[32px]">
       <TextConatiner
         textHead="OUR SOCIAL IMPACTS"
-        textDesc=" At Goofy Paws, we donate 5% of our revenue to animal shelters and
-          welfare organizations. Your purchases help provide food, medical care,
+        textDesc1="At Goofy Paws, we donate 5% of our revenue to animal shelters and
+          welfare organizations."
+        textDesc2="Your purchases help provide food, medical care,
           and homes for animals in need."
       />
       <div className="videoContentTop flex flex-col md:flex-row gap-10">

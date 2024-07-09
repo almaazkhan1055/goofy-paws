@@ -39,7 +39,7 @@ const Tabs = () => {
                 : "font-medium text-[18px] rounded-full leading-[32px] tracking-[0.75px] text-center text-black md:px-6 md:py-4"
             }
           >
-            <div className="flex items-center md:justify-center md:gap-3 text-[10px] leading-3 md:text-lg md:leading-normal">
+            <div className="flex items-center md:justify-center md:gap-3 text-[18px] font-medium leading-3 md:text-lg md:leading-normal">
               <Image src={item.img} alt={item.text} />
               {item.text}
             </div>

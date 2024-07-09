@@ -4,7 +4,7 @@ const Button = ({ text, padding }) => {
   return (
     <>
       <button
-        className={`bg-[#703EDB] md:px-6 md:py-3 text-white md:text-lg text-[10px] ${
+        className={`bg-[#703EDB] md:px-6 md:py-3 text-[#ffffff] md:text-lg text-[10px] ${
           padding ? padding : "md:p-5 p-1.5"
         } rounded-[60px]`}
       >

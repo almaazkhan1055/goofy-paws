@@ -9,9 +9,11 @@ const About = () => {
   return (
     <div className="md:my-16 flex justify-between md:flex-row flex-col md:gap-0 gap-10">
       <div className="left flex flex-col justify-between gap-8">
-        <h2 className="md:text-[100px] text-[50px] font-semibold md:leading-[120px] leading-none tracking-[2px]">
-          ABOUT US
-        </h2>
+        <div className="text-left">
+          <h2 className="md:text-[120px] text-[50px] font-semibold md:leading-[120px] leading-none tracking-[2px]">
+            ABOUT US
+          </h2>
+        </div>
         <div className="bg-[#FFEDD7] md:w-[600px] w-[384px] rounded-[32px] flex gap-2 md:h-[809px] h-[300px]">
           <Image alt="dogsleeping" src={dogsleeping} />
         </div>
@@ -19,7 +21,7 @@ const About = () => {
       <div className="right flex flex-col justify-between md:w-[560px] w-[384px]">
         <Image src={cat} alt="cat" className="rounded-[32px]  mb-10 md:mb-0" />
         <div className="gap-4">
-          <h2 className="font-semibold md:text-[55px] text-[42px] mb-6 md:mb-2 md:leading-none leading-[50px]">
+          <h2 className="font-semibold text-[55px] mb-6 md:mb-2 md:leading-none leading-[50px]">
             YOUR PET’S FAVORITE BUDDY
           </h2>
           <div>

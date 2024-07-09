@@ -1,7 +1,11 @@
 import React from "react";
 
 const ContentWrapper = ({ children }) => {
-  return <div className="p-[20px] overflow-hidden">{children}</div>;
+  return (
+    <div className="mx-auto max-w-[1424px] px-4 sm:px-6 lg:px-8">
+      {children}
+    </div>
+  );
 };
 
 export default ContentWrapper;
