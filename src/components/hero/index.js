@@ -29,7 +29,7 @@ const Hero = () => {
                   </h2>
                 </div>
                 <div className="flex items-center gap-6">
-                  <Button text="Shop Now" padding="px-4 py-2" textSize="8px" />
+                  <Button text="Shop Now" padding="px-4 py-2" textSize="6px" />
                   <CiCircleChevRight className="text-[#703EDB] sm:text-[50px] text-[30px]" />
                 </div>
               </div>
