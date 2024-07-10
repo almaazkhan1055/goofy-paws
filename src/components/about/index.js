@@ -27,9 +27,11 @@ const About = () => {
           <div>
             <h2 className="text-[18px] text-[#8A8A8E] sm:leading-[28.8px] leading-[22px] -tracking-[0.5%] sm:text-left text-center">
               Goofy Paws is a part of the HIE Global Inc. Group, a company
-              established in 2009 and headquartered in Phoenix, Arizona, USA.
-              Our core specialty is our exclusive line of pet products, designed
-              to bring joy and comfort to your furry companions.
+              <br />
+              established in 2009 and headquartered in Phoenix, Arizona, <br />
+              USA. Our core specialty is our exclusive line of pet products,
+              <br />
+              designed to bring joy and comfort to your furry companions.
             </h2>
             <div className="flex items-center gap-6 mt-5 sm:justify-normal justify-center">
               <Button text="Shop Now" padding="px-4 py-2" />
