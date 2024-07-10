@@ -6,6 +6,21 @@ import cat1 from "../../../public/assets/cat1.png";
 import human from "../../../public/assets/human.png";
 import Image from "next/image";
 
+const productButton = [
+  {
+    text: "FOR YOUR DOG",
+    img: shibainudog2,
+  },
+  {
+    text: "FOR YOUR CAT",
+    img: cat1,
+  },
+  {
+    text: "FOR YOU",
+    img: human,
+  },
+];
+
 const Tabs = () => {
   const [currentselected, setcurrentselected] = useState(0);
 
@@ -15,20 +30,7 @@ const Tabs = () => {
   return (
     <>
       <div className="flex items-center justify-center sm:gap-10 gap-2 font-medium text-base sm:leading-[32px] sm:tracking-[0.75px] text-center cursor-pointer sm:mt-20 my-5 scrollbar-hidden transition duration-300 ease-out sm:my-10">
-        {[
-          {
-            text: "FOR YOUR DOG",
-            img: shibainudog2,
-          },
-          {
-            text: "FOR YOUR CAT",
-            img: cat1,
-          },
-          {
-            text: "FOR YOU",
-            img: human,
-          },
-        ].map((item, index) => (
+        {productButton.map((item, index) => (
           <button
             onClick={() => handleClick(index)}
             key={index}

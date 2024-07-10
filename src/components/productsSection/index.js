@@ -2,7 +2,6 @@ import React from "react";
 import doghousebed from "../../../public/assets/doghousebed.png";
 import DogBowl from "../../../public/assets/DogBowl.png";
 import CatBowl from "../../../public/assets/CatBowl.png";
-import Image from "next/image";
 import Product from "../productBackground";
 
 const products = [
