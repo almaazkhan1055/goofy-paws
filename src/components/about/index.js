@@ -32,7 +32,7 @@ const About = () => {
               to bring joy and comfort to your furry companions.
             </h2>
             <div className="flex items-center gap-6 mt-5 sm:justify-normal justify-evenly">
-              <Button text="Shop Now" padding="p-2" />
+              <Button text="Shop Now" padding="px-4 py-2" />
               <CiCircleChevRight className="text-[#703EDB] sm:text-[50px] text-[30px]" />
             </div>
           </div>

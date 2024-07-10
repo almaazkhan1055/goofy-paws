@@ -29,23 +29,27 @@ const Hero = () => {
                   </h2>
                 </div>
                 <div className="flex items-center gap-6">
-                  <Button text="Shop Now" padding="p-2" textSize="9px" />
+                  <Button text="Shop Now" padding="px-4 py-2" textSize="8px" />
                   <CiCircleChevRight className="text-[#703EDB] sm:text-[50px] text-[30px]" />
                 </div>
               </div>
 
               <div className="sm:w-[20%] w-[40%]">
                 <div className="flex items-center gap-2 justify-end ">
-                  <IconsContainer bgColor="#EAF2FF" image={bed} />
+                  <IconsContainer
+                    bgColor="#EAF2FF"
+                    image={bed}
+                    padding="py-3 px-2"
+                  />
                   <IconsContainer
                     bgColor="#FFEBD6"
                     image={dog1}
-                    padding="p-[8px]"
+                    padding="p-3"
                   />
                   <IconsContainer
                     bgColor="#EEEEEE"
                     image={home}
-                    padding="p-[8px]"
+                    padding="p-3"
                   />
                 </div>
               </div>

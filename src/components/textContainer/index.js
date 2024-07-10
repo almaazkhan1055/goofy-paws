@@ -3,7 +3,7 @@ import React from "react";
 const TextConatiner = ({ textHead, textDesc1, textDesc2 }) => {
   return (
     <div className="textbox text-center flex flex-col gap-4 items-center justify-center">
-      <h2 className="font-semibold text-[56px] sm:leading-none leading-[60px]">
+      <h2 className="font-semibold sm:text-[56px] text-[42px] sm:leading-none leading-[45px]">
         {textHead}
       </h2>
       <div className="text-[#1C1C1E] opacity-[70%]">

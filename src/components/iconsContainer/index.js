@@ -4,7 +4,9 @@ import React from "react";
 const IconsContainer = ({ bgColor, image, width, height, padding }) => {
   return (
     <div
-      className={`rounded-full ${padding ? padding : "sm:px-1 sm:py-2.5 p-2"} `}
+      className={`rounded-full ${
+        padding ? padding : "sm:px-2 sm:py-3 p-2 py-3"
+      } `}
       style={{
         backgroundColor: bgColor,
       }}
@@ -12,12 +14,13 @@ const IconsContainer = ({ bgColor, image, width, height, padding }) => {
       <Image
         src={image}
         alt="bed"
-        width={width ? width : "57.54px"}
-        height={height ? height : "42.54px"}
+        style={{
+          height: height,
+          width: width,
+        }}
       />
     </div>
   );
 };
 
 export default IconsContainer;
-// px-1 py-2.5

@@ -14,4 +14,3 @@ const Button = ({ text, padding, textSize }) => {
 
 export default Button;
 
-// className={`rounded-full ${padding ? padding : "sm:px-1 sm:py-2.5 p-2"} `}
