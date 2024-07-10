@@ -14,7 +14,7 @@ const Tabs = () => {
   };
   return (
     <>
-      <div className="flex items-center justify-center sm:gap-10 gap-2 font-medium text-base sm:leading-[32px] sm:tracking-[0.75px] text-center cursor-pointer sm:mt-20 my-10 scrollbar-hidden transition duration-300 ease-out sm:my-10">
+      <div className="flex items-center justify-center sm:gap-10 gap-2 font-medium text-base sm:leading-[32px] sm:tracking-[0.75px] text-center cursor-pointer sm:mt-20 my-5 scrollbar-hidden transition duration-300 ease-out sm:my-10">
         {[
           {
             text: "FOR YOUR DOG",

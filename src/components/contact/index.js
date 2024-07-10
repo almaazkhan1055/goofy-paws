@@ -32,7 +32,7 @@ const Contact = () => {
           textDesc2="tempor incididunt ut labore et dolore magna aliq."
         />
         <div className="sm:py-20">
-          <div className="flex  sm:flex-row flex-col sm:items-center items-start justify-around sm:gap-10 gap-2">
+          <div className="flex  sm:flex-row flex-col sm:items-center items-start justify-around sm:gap-10 gap-2 my-4 sm:my-0">
             {contactData.map((item, index) => {
               return (
                 <div

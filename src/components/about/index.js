@@ -21,17 +21,17 @@ const About = () => {
       <div className="right flex flex-col justify-between sm:w-[560px]">
         <Image src={cat} alt="cat" className="rounded-[32px]  mb-10 sm:mb-0" />
         <div className="gap-4">
-          <h2 className="font-semibold sm:text-[55px] sm:leading-[55px] text-[32px] sm:mb-2 sm:text-left text-center">
+          <h2 className="font-semibold sm:text-[55px] sm:leading-[55px] leading-[42px] text-[42px] mb-2 sm:text-left text-center">
             YOUR PET’S FAVORITE BUDDY
           </h2>
           <div>
-            <h2 className="text-[18px] text-[#8A8A8E] leading-[28.8px] -tracking-[0.5%] sm:text-left text-center">
+            <h2 className="text-[18px] text-[#8A8A8E] sm:leading-[28.8px] leading-[22px] -tracking-[0.5%] sm:text-left text-center">
               Goofy Paws is a part of the HIE Global Inc. Group, a company
               established in 2009 and headquartered in Phoenix, Arizona, USA.
               Our core specialty is our exclusive line of pet products, designed
               to bring joy and comfort to your furry companions.
             </h2>
-            <div className="flex items-center gap-6 mt-5 sm:justify-normal justify-evenly">
+            <div className="flex items-center gap-6 mt-5 sm:justify-normal justify-center">
               <Button text="Shop Now" padding="px-4 py-2" />
               <CiCircleChevRight className="text-[#703EDB] sm:text-[50px] text-[30px]" />
             </div>

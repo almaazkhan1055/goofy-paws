@@ -20,10 +20,10 @@ const Hero = () => {
         <div className="flex flex-col-reverse sm:block">
           <div>
             <div className="sectionSubRow relative flex justify-between gap-4 mt-4 sm:mt-0">
-              <div className="flex flex-col sm:gap-6 gap-2 sm:w-[20%] w-[40%]">
+              <div className="flex flex-col sm:gap-6 gap-2 sm:w-[20%] w-[45%]">
                 <div className="">
                   <h2 className="sm:text-[22px] text-[12px] sm:leading-[30px] text-[#8A8A8E] font-medium ">
-                    Goofy Paws Pet Care
+                    Goofy Paws Pet Care <br />
                     <span className="text-[#000]"> Quality Products</span> for
                     Your Cherished Furry Family Members
                   </h2>
