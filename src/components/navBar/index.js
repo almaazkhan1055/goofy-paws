@@ -69,7 +69,7 @@ const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="my-[60px]">
+    <header className="sm:my-[60px] my-[20px]">
       <nav
         aria-label="Global"
         className="flex w-full items-center justify-between p-6  bg-[#F7F6F9] rounded-[60px]"

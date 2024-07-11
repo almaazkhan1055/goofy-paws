@@ -13,8 +13,8 @@ import dogCat from "../../../public/assets/dogCat.png";
 const Hero = () => {
   return (
     <>
-      <div className="relative mt-10">
-        <h2 className="font-semibold sm:text-[190px] leading-none  text-center text-[55px] mt-14 sm:mt-0">
+      <div className="relative sm:mt-10 mt-0">
+        <h2 className="font-semibold sm:text-[190px] leading-none  text-center text-[55px]">
           GOOFY <span className="italic">PAWS</span>
         </h2>
         <div className="flex flex-col-reverse sm:block">

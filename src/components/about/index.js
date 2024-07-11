@@ -8,7 +8,7 @@ import { CiCircleChevRight } from "react-icons/ci";
 const About = () => {
   return (
     <div className="sm:my-40 flex justify-between sm:flex-row flex-col sm:gap-0 gap-10">
-      <div className="left flex flex-col justify-between gap-8">
+      <div className="left flex flex-col justify-between sm:gap-8 gap-2">
         <div className="text-left">
           <h2 className="sm:text-[100px] text-[50px] font-semibold sm:leading-[120px] leading-none tracking-[2px]">
             ABOUT US
