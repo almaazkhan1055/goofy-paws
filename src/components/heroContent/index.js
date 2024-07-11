@@ -6,7 +6,7 @@ import cartoondog from "../../../public/assets/cartoondog.png";
 import IconsContainer from "../iconsContainer";
 const HeroContent = () => {
   return (
-    <div className="sm:border-y-[2px] border-[#1c1c1e3f]  sm:grid flex sm:grid-cols-[2fr,6fr,2fr] flex-col sm:place-items-center sm:mt-[60px] mt-5 mb-5">
+    <div className="sm:border-y-[2px] border-[#1c1c1e3f]  sm:grid flex sm:grid-cols-[2fr,6fr,2fr] flex-col sm:place-items-center sm:mt-[60px] my-5">
       <div className="border-x-[2px] border-y-[2px] border-[#1c1c1e3f] sm:py-0 sm:border-0 py-5 flex items-center justify-center">
         <div className="flex items-center gap-2 p-[10px] border-[1px] border-[#1c1c1e20] rounded-full justify-center">
           <div>
