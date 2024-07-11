@@ -9,6 +9,7 @@ import Image from "next/image";
 import dogNeckBelt from "../../../public/assets/dogNeckBelt.png";
 import petCloth from "../../../public/assets/petCloth.png";
 import dogCat from "../../../public/assets/dogCat.png";
+// import styles from "@/components/hero/hero.module.css";
 
 const Hero = () => {
   return (
@@ -17,12 +18,20 @@ const Hero = () => {
         <h2 className="font-semibold sm:text-[190px] leading-none  text-center text-[55px]">
           GOOFY <span className="italic">PAWS</span>
         </h2>
+        {/* <div>
+          <h2
+            className={`${styles.text} font-semibold sm:text-[190px] leading-none inline-block text-center text-[55px] sm:border-r-[10px] border-r-[5px] border-[customPurple]`}
+          >
+            GOOFY <span className={`${styles.text} italic`}>PAWS</span>
+          </h2>
+        </div> */}
+
         <div className="flex flex-col-reverse sm:block">
           <div>
             <div className="sectionSubRow relative flex sm:hidden justify-between gap-4 mt-4 sm:mt-0">
               <div className="flex flex-col sm:gap-6 gap-2 sm:w-[26%] w-full]">
                 <div className="">
-                  <h2 className="sm:text-[22px] text-[12px] sm:leading-[30px] text-[#8A8A8E] font-medium text-center">
+                  <h2 className="text-[18px] sm:leading-[30px] text-[#8A8A8E] font-medium text-center">
                     Goofy Paws Pet Care
                     <span className="text-[#000]"> Quality Products</span> for
                     Your Cherished Furry Family Members
@@ -58,26 +67,6 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
-
-              {/* <div className="sm:w-[20%] w-[40%]">
-                <div className="flex items-center gap-2 justify-end ">
-                  <IconsContainer
-                    bgColor="#EAF2FF"
-                    image={bed}
-                    padding="py-3 px-2"
-                  />
-                  <IconsContainer
-                    bgColor="#FFEBD6"
-                    image={dog1}
-                    padding="p-3"
-                  />
-                  <IconsContainer
-                    bgColor="#EEEEEE"
-                    image={home}
-                    padding="p-3"
-                  />
-                </div>
-              </div> */}
             </div>
             <div className="sectionSubRow relative sm:flex hidden justify-between gap-4 mt-4 sm:mt-0 ">
               <div className="flex flex-col sm:gap-6 gap-2 sm:w-[26%] w-[45%]">
