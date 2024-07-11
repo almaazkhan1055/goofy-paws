@@ -9,7 +9,6 @@ import Image from "next/image";
 import dogNeckBelt from "../../../public/assets/dogNeckBelt.png";
 import petCloth from "../../../public/assets/petCloth.png";
 import dogCat from "../../../public/assets/dogCat.png";
-// import styles from "@/components/hero/hero.module.css";
 
 const Hero = () => {
   return (
@@ -18,13 +17,6 @@ const Hero = () => {
         <h2 className="font-semibold sm:text-[190px] leading-none  text-center text-[55px]">
           GOOFY <span className="italic">PAWS</span>
         </h2>
-        {/* <div>
-          <h2
-            className={`${styles.text} font-semibold sm:text-[190px] leading-none inline-block text-center text-[55px] sm:border-r-[10px] border-r-[5px] border-[customPurple]`}
-          >
-            GOOFY <span className={`${styles.text} italic`}>PAWS</span>
-          </h2>
-        </div> */}
 
         <div className="flex flex-col-reverse sm:block">
           <div>
