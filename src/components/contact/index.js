@@ -61,7 +61,7 @@ const Contact = () => {
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon3} absolute sm:bottom-[50px] sm:right-[135px] bottom-[50px] right-[125px]`}
+          className={`${styles.pawIcon3} absolute sm:bottom-[50px] sm:right-[135px] bottom-[50px] right-[140px]`}
         />
         <Image
           src={paw}
