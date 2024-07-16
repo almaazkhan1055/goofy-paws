@@ -22,7 +22,7 @@ const HeroContent = () => {
         </div>
       </div>
       <div
-        className="text-center sm:py-[40px] py-[20px] px-[40px] sm:text-[22px] text-[14px] font-semibold
+        className="text-center sm:py-[40px] py-[20px] sm:px-[40px] sm:text-[22px] text-[18px] font-semibold
       sm:font-normal border-[#1c1c1e3f] sm:border-x-[2px]"
       >
         <p>
