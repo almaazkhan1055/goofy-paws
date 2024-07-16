@@ -15,16 +15,16 @@ const contactData = [
   },
   {
     icon: location,
-    text: "Lorem ipsum, dolor sit am.",
+    text: "2942 N. 24th Street, Suite 114, Phoenix, AZ 85016, USA",
   },
   {
     icon: phone,
-    text: "9875695862",
+    text: "(480) 322-5889",
   },
 ];
 const Contact = () => {
   return (
-    <div className="bg-customPurple sm:px-52 px-0 sm:py-20 py-40 relative flex flex-col sm:mb-0 ">
+    <div className="bg-customPurple px-0 sm:py-20 py-40 relative flex flex-col sm:mb-0 ">
       <ContentWrapper>
         <TextConatiner
           textHead="CONNECT WITH US"
@@ -40,7 +40,9 @@ const Contact = () => {
                   key={index}
                 >
                   <Image src={item.icon} alt="item.text" />
-                  <h3 className="text-[#1C1C1E] opacity-[70%]">{item.text}</h3>
+                  <h3 className="text-[#1C1C1E] sm:text-lg text-[12px] opacity-[70%]">
+                    {item.text}
+                  </h3>
                 </div>
               );
             })}
@@ -49,22 +51,22 @@ const Contact = () => {
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon1} absolute sm:top-[85px] top-0 left-[65px]`}
+          className={`${styles.pawIcon1} absolute sm:top-[65px] top-0 left-[65px]`}
         />
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon2} absolute sm:top-[175px] sm:left-[155px] top-[50px] left-[160px]`}
+          className={`${styles.pawIcon2} absolute sm:top-[150px] sm:left-[155px] top-[50px] left-[160px]`}
         />
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon3} absolute sm:bottom-[70px] sm:right-[150px] bottom-[50px] right-[150px]`}
+          className={`${styles.pawIcon3} absolute sm:bottom-[50px] sm:right-[135px] bottom-[50px] right-[125px]`}
         />
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon4} absolute sm:bottom-[50px] bottom-[30px] right-[42px]`}
+          className={`${styles.pawIcon4} absolute sm:bottom-[10px] bottom-[30px] right-[30px]`}
         />
       </ContentWrapper>
     </div>

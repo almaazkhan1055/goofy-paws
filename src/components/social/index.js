@@ -23,7 +23,7 @@ const Social = () => {
     <div className="sm:p-[60px] p-[20px] bg-[#703edb10] sm:my-[140px] mb-10 flex flex-col gap-10 rounded-[32px]">
       <TextConatiner
         textHead="OUR SOCIAL IMPACTS"
-        textDesc1="At Goofy Paws, we donate 5% of our revenue to animal shelters and
+        textDesc1="At Goofy Paws, we donate 25% of our profit to animal shelters and
           welfare organizations."
         textDesc2="Your purchases help provide food, medical care,
           and homes for animals in need."
