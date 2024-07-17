@@ -28,7 +28,7 @@ const Social = () => {
         textDesc2="Your purchases help provide food, medical care,
           and homes for animals in need."
       />
-      <div className="videoContentTop flex flex-col xl:flex-row gap-10">
+      <div className="videoContentTop flex flex-col sm:flex-row gap-10">
         {videoDataTop.map((video, index) => {
           return (
             <div key={index} className="relative">
@@ -41,7 +41,7 @@ const Social = () => {
           );
         })}
       </div>
-      <div className="videoContentTop flex flex-col xl:flex-row gap-10">
+      <div className="videoContentTop flex flex-col sm:flex-row gap-10">
         {videoDataBottom.map((video, index) => {
           return (
             <div key={index} className="relative">

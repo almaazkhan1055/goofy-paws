@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <>
       <div className="relative xl:mt-10 mt-0">
-        <h2 className="font-semibold xl:text-[190px] lg:text-[130px] leading-none text-center text-[55px]">
+        <h2 className="font-semibold xl:text-[175px] lg:text-[130px] leading-none text-center text-[50px] md:text-[100px]">
           GOOFY <span className="italic">PAWS</span>
         </h2>
 

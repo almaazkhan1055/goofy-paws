@@ -4,12 +4,12 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="bg-[#1C1C1E] relative lg:h-[572px] h-[316px]">
+    <div className="bg-[#1C1C1E] relative lg:h-[572px] h-[312px] md:h-[472px]">
       <div className="py-[65px] text-center">
-        <h3 className="xl:text-[28px] lg:text-[28px] text-[12px] opacity-60 text-[#FFFFFF]">
+        <h3 className="sm:text-[28px] text-[12px] opacity-60 text-[#FFFFFF]">
           HIE Global Inc. All Rights Reserved
         </h3>
-        <h2 className="font-semibold lg:text-[130px] text-[40px] text-[#ffffff] tracking-wider leading-[80px] xl:leading-normal lg:my-[50px] xl:my-0 my-0">
+        <h2 className="font-semibold md:text-[90px] lg:text-[130px] text-[40px] text-[#ffffff] tracking-wider leading-[80px] xl:leading-normal lg:my-[50px] xl:my-0 my-0">
           G
           <span
             className="text-[#1C1C1E]"
