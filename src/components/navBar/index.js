@@ -14,7 +14,7 @@ const NavBar = () => {
   };
   const handleContactClickMobile = () => {
     setMobileMenuOpen(false);
-    window.scrollTo({ top: 6200, behavior: "smooth" });
+    window.scrollTo({ top: 6900, behavior: "smooth" });
   };
 
   return (

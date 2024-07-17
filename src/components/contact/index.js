@@ -51,7 +51,7 @@ const Contact = () => {
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon1} absolute xl:top-[65px] top-0 left-[65px]`}
+          className={`${styles.pawIcon1} absolute xl:top-[65px] top-0 left-[50px]`}
         />
         <Image
           src={paw}
@@ -66,7 +66,7 @@ const Contact = () => {
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon4} absolute xl:bottom-[10px] bottom-[30px] right-[30px]`}
+          className={`${styles.pawIcon4} absolute xl:bottom-[10px] bottom-[10px] right-[30px]`}
         />
       </ContentWrapper>
     </div>

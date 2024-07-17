@@ -29,7 +29,7 @@ const Tabs = () => {
   };
   return (
     <>
-      <div className="flex items-center justify-center xl:gap-10 gap-2 font-medium text-base xl:leading-[32px] xl:tracking-[0.75px] text-center cursor-pointer xl:mt-20 my-10 scrollbar-hidden transition duration-300 ease-out xl:my-10">
+      <div className="flex items-center justify-center xl:gap-10 gap-2 font-medium text-base xl:leading-[32px] xl:tracking-[0.75px] text-center cursor-pointer xl:mt-20 my-10 scrollbar-hidden transition duration-300 ease-out sm:mb-20 lg:mb-24 xl:my-48">
         {productButton.map((item, index) => (
           <button
             onClick={() => handleClick(index)}
