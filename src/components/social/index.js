@@ -20,7 +20,7 @@ const videoDataBottom = [
 
 const Social = () => {
   return (
-    <div className="sm:p-[60px] p-[20px] bg-[#703edb10] sm:my-[140px] mb-10 flex flex-col gap-10 rounded-[32px]">
+    <div className="xl:p-[60px] p-[20px] bg-[#703edb10] xl:my-[140px] mb-10 flex flex-col gap-10 rounded-[32px]">
       <TextConatiner
         textHead="OUR SOCIAL IMPACTS"
         textDesc1="At Goofy Paws, we donate 25% of our profit to animal shelters and
@@ -28,7 +28,7 @@ const Social = () => {
         textDesc2="Your purchases help provide food, medical care,
           and homes for animals in need."
       />
-      <div className="videoContentTop flex flex-col sm:flex-row gap-10">
+      <div className="videoContentTop flex flex-col xl:flex-row gap-10">
         {videoDataTop.map((video, index) => {
           return (
             <div key={index} className="relative">
@@ -41,7 +41,7 @@ const Social = () => {
           );
         })}
       </div>
-      <div className="videoContentTop flex flex-col sm:flex-row gap-10">
+      <div className="videoContentTop flex flex-col xl:flex-row gap-10">
         {videoDataBottom.map((video, index) => {
           return (
             <div key={index} className="relative">

@@ -24,15 +24,15 @@ const contactData = [
 ];
 const Contact = () => {
   return (
-    <div className="bg-customPurple px-0 sm:py-20 py-40 relative flex flex-col sm:mb-0 ">
+    <div className="bg-customPurple px-0 xl:py-20 py-40 relative flex flex-col xl:mb-0 ">
       <ContentWrapper>
         <TextConatiner
           textHead="CONNECT WITH US"
           textDesc1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
           textDesc2="tempor incididunt ut labore et dolore magna aliq."
         />
-        <div className="sm:py-20">
-          <div className="flex sm:flex-row flex-col sm:items-center items-start justify-around sm:gap-10 gap-2">
+        <div className="xl:py-20">
+          <div className="flex xl:flex-row flex-col xl:items-center items-start justify-around xl:gap-10 gap-2">
             {contactData.map((item, index) => {
               return (
                 <div
@@ -40,7 +40,7 @@ const Contact = () => {
                   key={index}
                 >
                   <Image src={item.icon} alt="item.text" />
-                  <h3 className="text-[#1C1C1E] sm:text-lg text-[12px] opacity-[70%]">
+                  <h3 className="text-[#1C1C1E] xl:text-lg text-[12px] opacity-[70%]">
                     {item.text}
                   </h3>
                 </div>
@@ -51,22 +51,22 @@ const Contact = () => {
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon1} absolute sm:top-[65px] top-0 left-[65px]`}
+          className={`${styles.pawIcon1} absolute xl:top-[65px] top-0 left-[65px]`}
         />
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon2} absolute sm:top-[150px] sm:left-[155px] top-[50px] left-[160px]`}
+          className={`${styles.pawIcon2} absolute xl:top-[150px] xl:left-[155px] top-[50px] left-[160px]`}
         />
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon3} absolute sm:bottom-[50px] sm:right-[135px] bottom-[50px] right-[140px]`}
+          className={`${styles.pawIcon3} absolute xl:bottom-[50px] xl:right-[135px] bottom-[50px] right-[140px]`}
         />
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon4} absolute sm:bottom-[10px] bottom-[30px] right-[30px]`}
+          className={`${styles.pawIcon4} absolute xl:bottom-[10px] bottom-[30px] right-[30px]`}
         />
       </ContentWrapper>
     </div>

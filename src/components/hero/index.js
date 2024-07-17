@@ -13,17 +13,17 @@ import dogCat from "../../../public/assets/dogCat.png";
 const Hero = () => {
   return (
     <>
-      <div className="relative sm:mt-10 mt-0">
-        <h2 className="font-semibold sm:text-[190px] leading-none  text-center text-[55px]">
+      <div className="relative xl:mt-10 mt-0">
+        <h2 className="font-semibold xl:text-[190px] lg:text-[130px] leading-none text-center text-[55px]">
           GOOFY <span className="italic">PAWS</span>
         </h2>
 
-        <div className="flex flex-col-reverse sm:block">
+        <div className="flex flex-col-reverse xl:block">
           <div>
-            <div className="sectionSubRow relative flex sm:hidden justify-between gap-4 mt-4 sm:mt-0">
-              <div className="flex flex-col sm:gap-6 gap-2 sm:w-[26%] w-full]">
+            <div className="sectionSubRow relative flex xl:hidden justify-between gap-4 mt-8 xl:mt-0">
+              <div className="flex flex-col xl:gap-6 gap-2 xl:w-[26%] w-full">
                 <div className="">
-                  <h2 className="text-[18px] sm:leading-[30px] text-[#8A8A8E] font-medium text-center">
+                  <h2 className="text-[25px] xl:leading-[30px] text-[#8A8A8E] font-medium text-left">
                     Goofy Paws Pet Care
                     <span className="text-[#000]"> Quality Products</span> for
                     Your Cherished Furry Family Members
@@ -36,9 +36,9 @@ const Hero = () => {
                       padding="px-4 py-2"
                       textSize="6px"
                     />
-                    <CiCircleChevRight className="text-[#703EDB] sm:text-[50px] text-[30px]" />
+                    <CiCircleChevRight className="text-[#703EDB] xl:text-[50px] text-[30px]" />
                   </div>
-                  <div className="sm:w-[20%] w-[40%]">
+                  <div className="xl:w-[20%] w-[40%]">
                     <div className="flex items-center gap-2 justify-end ">
                       <IconsContainer
                         bgColor="#EAF2FF"
@@ -60,10 +60,10 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="sectionSubRow relative sm:flex hidden justify-between gap-4 mt-4 sm:mt-0 ">
-              <div className="flex flex-col sm:gap-6 gap-2 sm:w-[25%] w-[45%]">
+            <div className="sectionSubRow relative xl:flex hidden justify-between gap-4 mt-4 xl:mt-0 ">
+              <div className="flex flex-col xl:gap-6 gap-2 xl:w-[25%] w-[45%]">
                 <div className="">
-                  <h2 className="sm:text-[22px] text-[12px] sm:leading-[30px] text-[#8A8A8E] font-medium ">
+                  <h2 className="xl:text-[22px] text-[12px] xl:leading-[30px] text-[#8A8A8E] font-medium ">
                     Goofy Paws Pet Care <br />
                     <span className="text-[#000]"> Quality Products</span> for
                     Your Cherished Furry Family Members
@@ -71,11 +71,11 @@ const Hero = () => {
                 </div>
                 <div className="flex items-center gap-6">
                   <Button text="Shop Now" padding="px-4 py-2" textSize="6px" />
-                  <CiCircleChevRight className="text-[#703EDB] sm:text-[50px] text-[30px]" />
+                  <CiCircleChevRight className="text-[#703EDB] xl:text-[50px] text-[30px]" />
                 </div>
               </div>
 
-              <div className="sm:w-[20%] w-[40%]">
+              <div className="xl:w-[20%] w-[40%]">
                 <div className="flex items-center gap-2 justify-end ">
                   <IconsContainer
                     bgColor="#EAF2FF"
@@ -96,11 +96,11 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-between items-end sm:mt-[-260px] mt-[-14px]">
+          <div className="flex justify-between items-end xl:mt-[-260px] mt-[-14px]">
             <div className="flex justify-end">
               <Image src={dogNeckBelt} alt="dogNeckBelt" />
             </div>
-            <div className="flex sm:ml-[40px] ml-[10px] items-end">
+            <div className="flex xl:ml-[40px] ml-[10px] items-end">
               <Image src={dogCat} alt="dogcat" />
             </div>
             <div className="flex">

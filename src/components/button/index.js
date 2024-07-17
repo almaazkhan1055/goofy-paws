@@ -4,7 +4,7 @@ const Button = ({ text, onClick, padding, textSize }) => {
   return (
     <>
       <button
-        className={`bg-[#703EDB] sm:px-6 sm:py-3 text-[#ffffff] sm:text-lg text-[${textSize}] ${padding} rounded-[60px]`}
+        className={`bg-[#703EDB] xl:px-6 xl:py-3 text-[#ffffff] xl:text-lg text-[${textSize}] ${padding} rounded-[60px]`}
         onClick={onClick}
       >
         {text}

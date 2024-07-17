@@ -6,8 +6,8 @@ import cartoondog from "../../../public/assets/cartoondog.png";
 import IconsContainer from "../iconsContainer";
 const HeroContent = () => {
   return (
-    <div className="sm:border-y-[2px] border-[#1c1c1e3f] sm:grid flex sm:grid-cols-[2fr,6fr,2fr] flex-col sm:place-items-center sm:mt-[60px] my-5">
-      <div className="sm:py-0 py-5 flex items-center justify-center">
+    <div className="xl:border-y-[2px] border-[#1c1c1e3f] xl:grid flex xl:grid-cols-[2fr,6fr,2fr] flex-col xl:place-items-center xl:mt-[60px] my-5">
+      <div className="xl:py-0 py-5 flex items-center justify-center">
         <div className="flex items-center gap-2 p-[10px] border-[1px] border-[#1c1c1e20] rounded-full justify-center">
           <div>
             <h2 className="text-[18px] font-medium">Explore Now &#124;</h2>
@@ -22,8 +22,8 @@ const HeroContent = () => {
         </div>
       </div>
       <div
-        className="text-center sm:py-[40px] py-[20px] sm:px-[40px] sm:text-[22px] text-[18px] font-semibold
-      sm:font-normal border-[#1c1c1e3f] sm:border-x-[2px]"
+        className="text-center xl:py-[40px] py-[20px] xl:px-[40px] xl:text-[22px] text-[18px] font-semibold
+      xl:font-normal border-[#1c1c1e3f] xl:border-x-[2px]"
       >
         <p>
           At Goofy Paws&#44; we understand that your pets are more than just

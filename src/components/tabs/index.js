@@ -29,20 +29,20 @@ const Tabs = () => {
   };
   return (
     <>
-      <div className="flex items-center justify-center sm:gap-10 gap-2 font-medium text-base sm:leading-[32px] sm:tracking-[0.75px] text-center cursor-pointer sm:mt-20 my-10 scrollbar-hidden transition duration-300 ease-out sm:my-10">
+      <div className="flex items-center justify-center xl:gap-10 gap-2 font-medium text-base xl:leading-[32px] xl:tracking-[0.75px] text-center cursor-pointer xl:mt-20 my-10 scrollbar-hidden transition duration-300 ease-out xl:my-10">
         {productButton.map((item, index) => (
           <button
             onClick={() => handleClick(index)}
             key={index}
             currentselected={index}
-            className={`sm:px-6 px-2 sm:py-4 py-1 rounded-full text-black text-[18px] transition duration-300 ease-in-out
+            className={`xl:px-6 px-2 xl:py-4 py-1 rounded-full text-black text-[18px] transition duration-300 ease-in-out
               ${
                 currentselected === index
                   ? "bg-[#7e46f751] border-2 border-[#610BEF]"
                   : "bg-[#fff] border-2 border-[#fff]"
               }`}
           >
-            <div className="flex items-center sm:justify-center sm:gap-3 text-[12px] font-medium leading-3 sm:text-lg sm:leading-normal">
+            <div className="flex items-center xl:justify-center xl:gap-3 text-[12px] font-medium leading-3 xl:text-lg xl:leading-normal">
               <Image src={item.img} alt={item.text} />
               {item.text}
             </div>

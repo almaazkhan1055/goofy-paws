@@ -59,7 +59,7 @@ const NavBar = () => {
   };
 
   return (
-    <header className="sm:my-[60px] my-[20px]">
+    <header className="xl:my-[60px] my-[20px]">
       <nav
         aria-label="Global"
         className="flex w-full items-center justify-between p-6  bg-[#F7F6F9] rounded-[60px]"
@@ -84,7 +84,11 @@ const NavBar = () => {
         </div>
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Button text="Contact Us" onClick={handleContactClick} />
+          <Button
+            text="Contact Us"
+            padding="px-4 py-2"
+            onClick={handleContactClick}
+          />
         </div>
       </nav>
       <Dialog
@@ -93,7 +97,7 @@ const NavBar = () => {
         className="lg:hidden"
       >
         <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[white] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[white] px-6 py-6 xl:max-w-sm xl:ring-1 xl:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a
               href="#"

@@ -5,7 +5,7 @@ const IconsContainer = ({ bgColor, image, width, height, padding }) => {
   return (
     <div
       className={`rounded-full ${
-        padding ? padding : "sm:px-2 sm:py-3 p-2 py-3"
+        padding ? padding : "xl:px-2 xl:py-3 p-2 py-3"
       } `}
       style={{
         backgroundColor: bgColor,

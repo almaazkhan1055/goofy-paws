@@ -2,7 +2,7 @@ import React from "react";
 
 const ContentWrapper = ({ children }) => {
   return (
-    <div className="mx-auto max-w-[1424px] px-4 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-[1424px] px-4 xl:px-6 lg:px-8">
       {children}
     </div>
   );
