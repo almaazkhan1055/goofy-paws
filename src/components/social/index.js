@@ -28,15 +28,19 @@ const Social = () => {
         textDesc2="Your purchases help provide food, medical care,
           and homes for animals in need."
       />
-      <div className="videoContentTop flex flex-col sm:flex-row gap-10">
+      <div className="videoContentTop sm:grid sm:grid-cols-3 grid grid-rows-1 gap-10">
         {videoDataTop.map((video, index) => {
           return (
             <div key={index} className="relative">
               <div className="rounded-[32px] overflow-hidden">
-                <Image src={video.video} alt={"video"} />
+                <Image
+                  src={video.video}
+                  alt={"video"}
+                  className="h-[367px] object-cover"
+                />
                 <div className="absolute inset-0 bg-gradient-to-b from-[rgba(0,0,0,0.6)] to-transparent rounded-[32px]"></div>
               </div>
-              {video.desc}
+              {/* {video.desc} */}
             </div>
           );
         })}
@@ -49,7 +53,7 @@ const Social = () => {
                 <Image src={video.video} alt="video" />
                 <div className="absolute inset-0 bg-gradient-to-b from-[rgba(0,0,0,0.6)] to-transparent rounded-[32px]"></div>
               </div>
-              {video.desc}
+              {/* {video.desc} */}
             </div>
           );
         })}

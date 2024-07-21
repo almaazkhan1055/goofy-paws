@@ -6,7 +6,7 @@ const TextConatiner = ({ textHead, textDesc1, textDesc2 }) => {
       <h2 className="font-semibold xl:text-[56px] text-[38px] xl:leading-none leading-[42px] mt-4 xl:mt-0">
         {textHead}
       </h2>
-      <div className="text-[#1C1C1E] opacity-[70%] xl:block hidden">
+      {/* <div className="text-[#1C1C1E] opacity-[70%] xl:block hidden">
         {textDesc1 && (
           <p
             className={`font-medium text-[18px] leading-[22px] xl:leading-[28px]`}
@@ -21,7 +21,7 @@ const TextConatiner = ({ textHead, textDesc1, textDesc2 }) => {
             {textDesc2}
           </p>
         )}
-      </div>
+      </div> */}
       <div className="text-[#1C1C1E] opacity-[70%] xl:hidden block">
         {(textDesc2 || textDesc1) && (
           <p

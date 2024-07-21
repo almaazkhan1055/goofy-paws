@@ -15,7 +15,7 @@ const ProductSearch = () => {
             categories to keep your furry friends happy and healthy.
           </p>
         </div>
-        <Tabs />
+        {/* <Tabs /> */}
       </div>
       <div className="xl:my-0 my-5 text-left xl:block hidden">
         <h2 className="xl:text-[110px] text-[42px] font-semibold tracking-tighter xl:leading-[120px] leading-[42px] xl:mb-2 text-center xl:text-left">
@@ -31,7 +31,7 @@ const ProductSearch = () => {
             categories to keep your furry friends happy and healthy.
           </p>
         </div>
-        <Tabs />
+        {/* <Tabs /> */}
       </div>
     </>
   );

@@ -31,7 +31,7 @@ const Contact = () => {
           textDesc1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
           textDesc2="tempor incididunt ut labore et dolore magna aliq."
         />
-        <div className="xl:py-20">
+        <div className="xl:py-[150px]">
           <div className="flex xl:flex-row flex-col xl:items-center items-start justify-around xl:gap-10 gap-2">
             {contactData.map((item, index) => {
               return (
@@ -51,12 +51,12 @@ const Contact = () => {
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon1} absolute xl:top-[65px] top-0 left-[50px]`}
+          className={`${styles.pawIcon1} absolute xl:top-[40px] top-0 left-[50px]`}
         />
         <Image
           src={paw}
           alt="paw"
-          className={`${styles.pawIcon2} absolute xl:top-[150px] xl:left-[155px] top-[50px] left-[160px]`}
+          className={`${styles.pawIcon2} absolute xl:top-[120px] xl:left-[155px] top-[50px] left-[160px]`}
         />
         <Image
           src={paw}
