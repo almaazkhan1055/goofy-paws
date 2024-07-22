@@ -22,7 +22,7 @@ const TextConatiner = ({ textHead, textDesc1, textDesc2 }) => {
           </p>
         )}
       </div> */}
-      <div className="text-[#1C1C1E] opacity-[70%] xl:hidden block">
+      {/* <div className="text-[#1C1C1E] opacity-[70%] xl:hidden block">
         {(textDesc2 || textDesc1) && (
           <p
             className={`font-medium text-[18px] leading-[22px] xl:leading-[28px]`}
@@ -30,7 +30,7 @@ const TextConatiner = ({ textHead, textDesc1, textDesc2 }) => {
             {textDesc1 + textDesc2}
           </p>
         )}
-      </div>
+      </div> */}
     </div>
   );
 };

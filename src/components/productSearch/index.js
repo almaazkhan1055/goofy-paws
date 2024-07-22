@@ -9,7 +9,7 @@ const ProductSearch = () => {
           TOP CATEGORIES AND PRODUCTS
         </h2>
         <div className="flex xl:flex-row flex-col xl:gap-12 items-center">
-          <p className="text-[18px] xl:leading-[28.8px] leading-[22px] tracking-[-0.5%] font-medium  text-[#8A8A8E] xl:w-[580px] text-center xl:text-left mt-5 xl:mt-0">
+          <p className="text-[18px] xl:leading-[28.8px] leading-[22px] tracking-[-0.5%] font-medium  text-[#8A8A8E] xl:w-[580px] text-center xl:text-left mt-5 xl:mt-0 mb-8">
             Discover premium pet products at Goofy Paws. Our high-quality items
             range from stylish accessories to durable toys. Browse our top
             categories to keep your furry friends happy and healthy.
